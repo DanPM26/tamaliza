@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    background-color: rgb(244, 213, 155);
+    text-align: center;
+    font-family: 'Aboreto', cursive;  
+    
+}
+.bienvenido{
+    font-family: 'Aboreto', cursive;  
+}
+.tamales{
+    width:"500px";
+    height:"500px";
+}
+.tamales:hover{
+    background-color: rgb(201, 176, 143);
+    border-radius: 50%;
+}
+
+.map:hover {
+    background-color: antiquewhite;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.evento:hover{
+    background-color: antiquewhite;
+    border-radius: 50%;
+    padding: 10px; 
+}
+
+.cat:hover{
+    background-color: rgb(133, 165, 187);
+    border-radius: 50%;
+}
+
+.spoty{
+    width: 50%; 
+    height: 100%; 
+    border: 0;
+}
+
+@media (max-width: 600px) {
+    body{
+        margin:0;
+        background-color: rgb(244, 213, 155);
+        
+    }
+
+   img.tamales{
+    width: 300px;
+    height: 300px;
+   }
+
+   img.cat{
+    width: 300px;
+    height: 300px;
+   }
+}
